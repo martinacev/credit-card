@@ -1,0 +1,53 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 50%;
+	margin-right: 150px;
+	flex-direction: column;
+}
+
+.clientInformation {
+	display: flex;
+	flex-direction: column;
+}
+
+.confirm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.width {
+	width: 450px;
+	height: 50px;
+}
+
+.appreciation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.thanks {
+	letter-spacing: 1.2px;
+	color: rgb(56, 1, 56);
+}
+
+.text {
+	color: gray;
+	letter-spacing: 1.1px;
+}
+
+.width {
+	width: 450px;
+	height: 50px;
+	background-color: purple;
+}
+
+.btn {
+    margin-top: 25px;
+}
