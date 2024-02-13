@@ -16,7 +16,7 @@ const CardExpiration = ({ onChange, onChangeExpiredDate }) => {
 		let value = event.target.value.replace(/\D/g, "").slice(0, 2);
 
 		if (value !== "") {
-			value = Math.min(parseInt(value, 10), 31).toString();
+			value = Math.min(parseInt(value, 10), 12).toString();
 		}
 		setExpDate(value);
 		onChangeExpiredDate(`${value} / ${mmYy}`);
